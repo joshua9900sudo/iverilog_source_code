@@ -10,7 +10,7 @@ hello uut(A, B);
 
 initial begin
 
-	$dumpfile("hello_tb.vcd")
+	$dumpfile("hello_tb.vcd");
 	$dumpvars(0, hello_tb);
 
 	A = 0;
@@ -22,7 +22,7 @@ initial begin
 	A = 0;
 	#20;
 
-	$display("Test complete")
+	$display("Test complete");
 
 end
 
